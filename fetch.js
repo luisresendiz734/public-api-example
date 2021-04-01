@@ -33,7 +33,7 @@ const post = async () => {
 }
 
 // PUT
-const post = async () => {
+const put = async () => {
     const id = "<student-id>"
     const name = "Tony Stark"
     const description = "I'm Iron-man!"
@@ -53,7 +53,7 @@ const post = async () => {
 }
 
 // DELETE
-const post = async () => {
+const delete = async () => {
     const id = "<student-id>"
     try {
         const response = await fetch(URL, {
