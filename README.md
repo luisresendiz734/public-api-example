@@ -81,3 +81,6 @@ Delete a student.
     "success": true, // on error, false
   }
   ```
+
+## All operations with fetch
+[Fetch.js](./fetch.js)
